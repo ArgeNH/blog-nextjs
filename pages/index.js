@@ -21,19 +21,20 @@ export default function Home() {
         </h1>
         
         <div className={styles.grid}>
-         <a href="/activities" className={styles.card}>
-            <h3>Activities &rarr;</h3>
-            <p>Activities scheduled to upload to the blog.</p>
-          </a>
+          <Link href="/activities" >
+            <a className={styles.card}><h3>Activities &rarr;</h3>
+            <p>Activities scheduled to upload to the blog.</p></a>
+          </Link>
 
-          <a href="/about" className={styles.card}>
-            <h3>About Me &rarr;</h3>
-            <p>A brief description and various things. Small projects</p>
-          </a>
-
+          <Link href="/about">
+            <a  className={styles.card}>
+              <h3>About Me &rarr;</h3>
+              <p>A brief description and various things. Small projects</p>
+            </a>
+          </Link>
         </div>
 
-        <iframe width="640" height="480" src="https://www.youtube.com/embed/ut_67JzcQ08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="480" height="360" src="https://www.youtube.com/embed/ut_67JzcQ08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         
 
       </main>
