@@ -5,13 +5,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>English Blog - Arge Niño</title>
+        <title> 🧑‍💻 English Blog - Arge Niño</title>
         <link rel="icon" href="/icon-arge.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to English blog of <a href="https://www.instagram.com/arge.nino/">Arge Niño</a>
+          Welcome to English blog of <a href="https://www.instagram.com/arge.nino/">Arge Niño</a>🧑‍💻
         </h1>
       </main>
 
