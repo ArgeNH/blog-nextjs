@@ -33,7 +33,8 @@ export default function Home() {
 
         </div>
 
-        <iframe src='https://www.youtube.com/watch?v=KstbkZwnTv0'></iframe>
+        <iframe width="640" height="480" src="https://www.youtube.com/embed/ut_67JzcQ08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
 
       </main>
 
