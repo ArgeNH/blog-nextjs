@@ -6,6 +6,10 @@
   justify-content: center;
   align-items: center;
 }
+.containe{
+  min-height: auto;
+  display: flex;
+}
 
 .nav{
   font-size: 24px;

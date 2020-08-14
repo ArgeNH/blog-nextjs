@@ -19,23 +19,30 @@ export default function Home() {
           Welcome to English blog of
           <br /><a href="https://www.instagram.com/arge.nino/">Arge Niño</a>🧑‍💻
         </h1>
-        
+
         <div className={styles.grid}>
           <Link href="/activities" >
             <a className={styles.card}><h3>Activities &rarr;</h3>
-            <p>Activities scheduled to upload to the blog.</p></a>
+              <p>Activities scheduled to upload to the blog.</p></a>
           </Link>
 
           <Link href="/about">
-            <a  className={styles.card}>
+            <a className={styles.card}>
               <h3>About Me &rarr;</h3>
               <p>A brief description and various things. Small projects</p>
             </a>
           </Link>
         </div>
 
-        <iframe width="480" height="360" src="https://www.youtube.com/embed/ut_67JzcQ08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
+
+          <div className={styles.containe}>
+              <p>
+                El contenido de este blog es totalmente de tipo educativo,<br/>
+                correspondiente a la materia Ingles V en la Univerdidad.
+              </p>
+          </div>
+                
+          <iframe src="https://discordapp.com/widget?id=429682247231078400&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
       </main>
 
