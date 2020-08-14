@@ -1,8 +1,18 @@
 import styles from '../../styles/About.module.css'
+import Head from 'next/head'
 
 export default function Act() {
     return (
         <>
+
+
+            <Head>
+                <title>English Blog - Arge Niño</title>
+                <link rel="icon" href="/icon-arge.ico" />
+
+
+
+            </Head>
 
             <main className={styles.main}>
                 <h1>ACTIVITIES 📚</h1>
