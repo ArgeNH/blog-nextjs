@@ -1,19 +1,14 @@
 import styles from '../../styles/About.module.css'
-import Head from 'next/head'
+import Header from '../../components/header/index'
 import Footer from '../../components/footer/index';
+import Nav from '../../components/navigation/index';
 
 export default function Act() {
     return (
         <>
+            <Nav/>
 
-
-            <Head>
-                <title>English Blog - Arge Niño</title>
-                <link rel="icon" href="/icon-arge.ico" />
-
-
-
-            </Head>
+            <Header/>
 
             <main className={styles.main}>
                 <h1>ACTIVITIES 📚</h1>
@@ -24,8 +19,9 @@ export default function Act() {
                             <h3>Activity One</h3>
                             <div class="row">
                                 <div class="col-sm ">
-                                    <div class={styles.video_responsive}>
-                                        <iframe src="https://www.youtube.com/embed/CIpwuvEBiZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <div className="embed-responsive embed-responsive-16by9">
+                                        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/hBi9wavp2w4"
+                                                allowFullScreen></iframe>
                                     </div>
                                 </div>
                                 <div class="col-sm">
@@ -46,7 +42,7 @@ export default function Act() {
                     </div>
                 </div>
             </main>
-        <Footer/>
+            <Footer/>
         </>
     );
 }
