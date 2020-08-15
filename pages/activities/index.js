@@ -40,6 +40,39 @@ export default function Act() {
                         </div>
                     </div>
                 </div>
+
+
+                {/*Actividad 2*/}
+                <br/>
+                <div className='container'>
+                    {/*Actividad 1*/}
+                    <div className="card">
+                        <div className="card-body ">
+                            <h4 className={styles.h4}>Activity Two</h4>
+                            <div className="row">
+                                <div className="col-sm ">
+                                    <div className="embed-responsive embed-responsive-16by9">
+                                        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/_ZyD4n5zqxA"
+                                                allowFullScreen></iframe>
+                                    </div>
+                                </div>
+                                <div className="col-sm">
+
+                                    <div className="card">
+                                        <div className="card-header">
+                                            Name of activity
+                                        </div>
+                                        <div className="card-body">
+                                            <h5 className="card-title">Title</h5>
+                                            <p className="card-text">Text...</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </main>
             <Footer/>
         </>

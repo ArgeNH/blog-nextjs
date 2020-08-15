@@ -4,11 +4,15 @@ import Footer from '../components/footer/index'
 import Header from '../components/header/index'
 import VideoHome from "../components/video/index";
 import {Tab, TabBar} from '@rmwc/tabs'
+import Nav from "../components/navigation";
 
 export default function Home() {
     return (
+        <>
+        <Nav/>
         <div className={styles.container}>
             <Header/>
+
             <main className={styles.main}>
 
 
@@ -46,5 +50,6 @@ export default function Home() {
 
             <Footer/>
         </div>
+    </>
     )
 }
