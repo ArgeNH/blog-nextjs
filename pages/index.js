@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import Footer from '../components/footer/index'
 import { Tab, TabBar } from '@rmwc/tabs'
 
 export default function Home() {
@@ -41,20 +42,10 @@ export default function Home() {
                 correspondiente a la materia Ingles V en la Univerdidad.
               </p>
           </div>
-                
-          <iframe src="https://discordapp.com/widget?id=429682247231078400&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://github.com/ArgeNH"
-          target="_blank"
-          rel="noopener noreferrer">
-          Created by{' '}
-          <img src="/arge.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+      <Footer/>
     </div>
   )
 }

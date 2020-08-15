@@ -1,5 +1,6 @@
 import styles from '../../styles/About.module.css'
 import Head from 'next/head'
+import Footer from '../../components/footer/index';
 
 export default function Act() {
     return (
@@ -45,7 +46,7 @@ export default function Act() {
                     </div>
                 </div>
             </main>
-
+        <Footer/>
         </>
     );
 }
