@@ -7,7 +7,8 @@ export default function Nav() {
                 <div className='container'>
                     <Link href='/'><a className="navbar-brand" alt='principal page'>
                         🏠 Go Home
-                    </a></Link>
+                    </a>
+                    </Link>
                 </div>
             </nav>
         </>

@@ -1,4 +1,4 @@
-import styles from '../../styles/About.module.css'
+import styles from '../../styles/Activity.module.css'
 import Header from '../../components/header/index'
 import Footer from '../../components/footer/index';
 import Nav from '../../components/navigation/index';
@@ -15,7 +15,7 @@ export default function Act() {
                     {/*Actividad 1*/}
                     <div className="card">
                         <div className="card-body ">
-                            <h3>Activity One</h3>
+                            <h4 className={styles.h4}>Activity One</h4>
                             <div className="row">
                                 <div className="col-sm ">
                                     <div className="embed-responsive embed-responsive-16by9">
