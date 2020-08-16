@@ -9,27 +9,27 @@ import Nav from "../components/navigation";
 export default function Home() {
     return (
         <>
-        <Nav/>
+
         <div className={styles.container}>
             <Header/>
-
+            <Nav/>
             <main className={styles.main}>
 
 
                 <h1 className={styles.title}>
                     Welcome to English blog of
                     <br/><Link href="https://www.instagram.com/arge.nino/"><a target="_blank"
-                                                                              rel="noopener noreferrer">Arge Niño</a></Link>🧑‍💻
+                                                                              rel="noopener noreferrer" title='instagram Arge'>Arge Niño</a></Link>🧑‍💻
                 </h1>
 
                 <div className={styles.grid}>
                     <Link href="/activities">
-                        <a className={styles.card}><h3>Activities &crarr;</h3>
+                        <a className={styles.card} title='Click to see activities'><h3>Activities &crarr;</h3>
                             <p>Activities scheduled to upload to the blog.</p></a>
                     </Link>
 
                     <Link href="/about">
-                        <a className={styles.card}>
+                        <a className={styles.card} title='About me'>
                             <h3>About Me &crarr;</h3>
                             <p>A brief description and various things. Small projects</p>
                         </a>

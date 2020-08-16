@@ -32,3 +32,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+#img
+/Arge_photo.jpg

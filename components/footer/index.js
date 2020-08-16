@@ -9,7 +9,7 @@ export default function Footer() {
                 <Link href="https://github.com/ArgeNH"><a
 
                     target="_blank"
-                    rel="noopener noreferrer">
+                    rel="noopener noreferrer" title='GitHub Arge Niño'>
                     Created by{' '}
                     <img src="/arge.svg" alt="Vercel Logo" className={styles.logo}/>
                 </a></Link>
