@@ -1,0 +1,6 @@
+.div nav{
+    background-color: rgba(169, 171, 254 , 0.45 );
+    backdrop-filter: blur(8px);
+    box-shadow: 2px 2px 5px #999999;
+}
+
