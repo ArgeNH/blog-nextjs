@@ -13,7 +13,7 @@ export default function Act() {
 
             <div className={styles.main}>
                 <div className="container">
-                    <h1 className={styles.h1}>About me 📋</h1>
+                    <h1 className={styles.h1}>About me 👀</h1>
                     <br/>
                     <div className="row">
                         <div className="col-sm text-justify">
@@ -33,16 +33,23 @@ export default function Act() {
                     </div>
                     <br/>
                     <div className="row-cols-sm-1">
-                        <p className={styles.p}>
-                            I am currently in sixth semester, I really like watching anime and playing video games. 👾<br/>
-                            One of my projects is to create my own personal web page, using different technologies
-                            that integrate web development.<br/><br/>
-
-
-                            This website was made with the React framework ⚛,
-                            <Link href='https://nextjs.org/'><a target="_blank" rel="noopener noreferrer"> Next.js</a></Link>.<br/>
-                            <h6 className={styles.h6}>Created and programmed by me.</h6>
-                        </p>
+                        <div className={styles.p}>
+                            <p>
+                                I am currently in sixth semester, I really like watching anime and playing video games. 👾
+                            </p>
+                            <p>
+                                I really like cats, for now I have 4 of them. 🐱
+                            </p>
+                            <p>
+                                One of my projects is to create my own personal web page, using different technologies
+                                that integrate web development. I would also like to learn more programming languages, especially web.
+                            </p>
+                            <p>
+                                This website was made with the React framework ⚛,
+                                <Link href='https://nextjs.org/'><a target="_blank" rel="noopener noreferrer"> Next.js</a></Link>.<br/>
+                                <h6 className={styles.h6}>Created and programmed by me.<br/></h6>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
