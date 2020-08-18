@@ -8,15 +8,21 @@
 }
 .h4{
     text-align: center;
-    text-shadow: 0.1em 0.1em 0.2em black;
+    text-shadow: 3px 3px 6px #999999;
 }
 .main img{
     display: block;
     margin: auto;
+    align-items: center;
+    justify-content: center;
+    horiz-align: center;
+    box-shadow: 4px 4px 8px #999999;
+    object-fit: cover;
 }
 .p{
     font-size: 20px;
     color: #566573;
+    text-align: justify;
 }
 .h1{
     text-align: center;

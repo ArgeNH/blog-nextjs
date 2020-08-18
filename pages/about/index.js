@@ -16,18 +16,20 @@ export default function Act() {
                     <h1 className={styles.h1}>About me</h1>
                     <br/>
                     <div className="row">
-                        <div className="col-sm">
+                        <div className="col-sm text-justify">
                             <img height='160' width='160' src='https://imgur.com/hpCLJdQ.png' className='rounded-circle'
-                                 alt='Arge photo' title="Arge's photo" />
+                                 title="Arge's photo"/>
                         </div>
                         <div className="col-sm">
                             <h4 className={styles.h4}>Hi, I am Arge Darley Niño Vianchá</h4>
                             <p className={styles.p}>
                                 I am studying Systems and Computing Engineering at the Technological
                                 and Pedagogical University of Colombia. I am 20 years old. <br/>
-
                             </p>
                         </div>
+                    </div>
+                    <div className="row-cols-sm-1">
+
                     </div>
                 </div>
             </main>
