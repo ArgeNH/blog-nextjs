@@ -32,7 +32,7 @@ export default function Act() {
                         </div>
                     </div>
                     <br/>
-                    <div className="row">
+                    <div className="row-cols-sm-1">
                         <p className={styles.p}>
                             I am currently in sixth semester, I really like watching anime and playing video games. 👾<br/>
                             One of my projects is to create my own personal web page, using different technologies
