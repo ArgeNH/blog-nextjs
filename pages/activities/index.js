@@ -15,19 +15,21 @@ export default function Act() {
                     {/*Actividad 1*/}
                     <div className="card">
                         <div className="card-body ">
-                            <h4 className={styles.h4}>Activity One</h4>
+                            <h4 className={styles.h4}>Activity One</h4><code>(demonstrative video)</code>
                             <div className="row">
                                 <div className="col-sm ">
+
                                     <div className="embed-responsive embed-responsive-16by9">
                                         <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/hBi9wavp2w4"
                                                 allowFullScreen></iframe>
+
                                     </div>
                                 </div>
                                 <div className="col-sm">
 
                                     <div className="card">
                                         <div className="card-header">
-                                            Name of activity
+                                            Name of activity (example)
                                         </div>
                                         <div className="card-body">
                                             <h5 className="card-title">Title</h5>
@@ -48,7 +50,7 @@ export default function Act() {
                     {/*Actividad 1*/}
                     <div className="card">
                         <div className="card-body ">
-                            <h4 className={styles.h4}>Activity Two</h4>
+                            <h4 className={styles.h4}>Activity Two</h4><code>(demonstrative video)</code>
                             <div className="row">
                                 <div className="col-sm ">
                                     <div className="embed-responsive embed-responsive-16by9">
@@ -60,7 +62,7 @@ export default function Act() {
 
                                     <div className="card">
                                         <div className="card-header">
-                                            Name of activity
+                                            Name of activity (example)
                                         </div>
                                         <div className="card-body">
                                             <h5 className="card-title">Title</h5>
@@ -73,6 +75,8 @@ export default function Act() {
                         </div>
                     </div>
                 </div>
+
+                {/*Actividad 3*/}
             </main>
             <Footer/>
         </>

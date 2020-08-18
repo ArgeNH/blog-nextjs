@@ -11,16 +11,19 @@ export default function Act() {
             <Header/>
             <Nav/>
 
-            <main className={styles.main}>
+            <div className={styles.main}>
                 <div className="container">
-                    <h1 className={styles.h1}>About me</h1>
+                    <h1 className={styles.h1}>About me 📋</h1>
                     <br/>
                     <div className="row">
                         <div className="col-sm text-justify">
+                            <br/>
                             <img height='160' width='160' src='https://imgur.com/hpCLJdQ.png' className='rounded-circle'
                                  title="Arge's photo"/>
+                            <br/>
                         </div>
                         <div className="col-sm">
+                            <br/>
                             <h4 className={styles.h4}>Hi, I am Arge Darley Niño Vianchá</h4>
                             <p className={styles.p}>
                                 I am studying Systems and Computing Engineering at the Technological
@@ -28,11 +31,21 @@ export default function Act() {
                             </p>
                         </div>
                     </div>
-                    <div className="row-cols-sm-1">
+                    <br/>
+                    <div className="row">
+                        <p className={styles.p}>
+                            I am currently in sixth semester, I really like watching anime and playing video games. 👾<br/>
+                            One of my projects is to create my own personal web page, using different technologies
+                            that integrate web development.<br/><br/>
 
+
+                            This website was made with the React framework ⚛,
+                            <Link href='https://nextjs.org/'><a target="_blank" rel="noopener noreferrer"> Next.js</a></Link>.<br/>
+                            <h6 className={styles.h6}>Created and programmed by me.</h6>
+                        </p>
                     </div>
                 </div>
-            </main>
+            </div>
 
             <Footer/>
         </>

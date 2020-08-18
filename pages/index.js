@@ -38,14 +38,6 @@ export default function Home() {
 
                 <VideoHome/>
 
-                {/* <div className={styles.containe}>
-                    <p>
-                        The content of this blog is absolutely educational,<br/>
-                        corresponding to the English V subject at the University.<br/>
-                        <h3>Welcome Video</h3>
-                    </p>
-                </div>*/}
-
             </main>
 
             <Footer/>
