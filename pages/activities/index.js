@@ -29,7 +29,7 @@ export default function Act() {
 
                                     <div className="card">
                                         <div className="card-header">
-                                            Name of activity (example)
+
                                         </div>
                                         <div className="card-body">
                                             <h5 className="card-title">Title</h5>
@@ -47,7 +47,6 @@ export default function Act() {
                 {/*Actividad 2*/}
                 <br/>
                 <div className='container'>
-                    {/*Actividad 1*/}
                     <div className="card">
                         <div className="card-body ">
                             <h4 className={styles.h4}>Activity Two</h4><code>(demonstrative video)</code>
@@ -75,8 +74,22 @@ export default function Act() {
                         </div>
                     </div>
                 </div>
-
+                <br/>
                 {/*Actividad 3*/}
+                <div className='container'>
+                    <div className="card">
+                        <div className="card-body ">
+                            <h3 className={styles.h3}>Graphic Organizer</h3>
+                            <div className="row">
+                                <div className="col-sm ">
+                                    <div className="text-center">
+                                        <img className='rounded img-fluid' src='https://imgur.com/Uf6iDXE.png' alt='graphicOrganizer'/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </main>
             <Footer/>
         </>
