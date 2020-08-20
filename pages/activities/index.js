@@ -29,7 +29,7 @@ export default function Act() {
 
                                     <div className="card">
                                         <div className="card-header">
-
+                                            Name of activity (example)
                                         </div>
                                         <div className="card-body">
                                             <h5 className="card-title">Title</h5>
