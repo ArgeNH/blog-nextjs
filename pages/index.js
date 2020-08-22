@@ -17,8 +17,8 @@ export default function Home() {
 
 
                     <h1 className={styles.title}>
-                        Welcome to English blog of
-                        <br/><Link href="https://www.instagram.com/arge.nino/"><a target="_blank"
+                        Welcome to English blog
+                        <br/>of <Link href="https://www.instagram.com/arge.nino/"><a target="_blank"
                                                                                   rel="noopener noreferrer"
                                                                                   title='instagram Arge'>
                         Arge Niño
