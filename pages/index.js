@@ -22,7 +22,7 @@ export default function Home() {
                                                                                   rel="noopener noreferrer"
                                                                                   title='instagram Arge'>
                         Arge Niño
-                        </a></Link>🧑‍💻
+                        </a></Link>
                     </h1>
 
                     <div className={styles.grid}>

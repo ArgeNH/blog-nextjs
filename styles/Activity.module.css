@@ -14,3 +14,9 @@
     text-align: center;
     color: #030B34;
 }
+
+@media (max-width: 576px) {
+    .separator{
+        padding-top: 1rem;
+    }
+}
