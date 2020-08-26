@@ -9,7 +9,7 @@ export default function VideoHome() {
                     className='shake-slow shake-constant'>🙋‍♂️</span></div></h2>
                 <div>
                     <div className="embed-responsive embed-responsive-16by9 rounded">
-                        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/hBi9wavp2w4"
+                        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/BaKAaLfo2EU"
                                 allowFullScreen></iframe>
                     </div>
                     <br/>
