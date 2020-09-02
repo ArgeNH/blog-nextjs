@@ -17,6 +17,10 @@
 .main h5{
     text-align: center;
 }
+.main span{
+    display: inline-flex;
+    text-shadow: 10px 10px 15px #999999;
+}
 
 @media (max-width: 576px) {
     .separator{

@@ -24,7 +24,7 @@ export default function Act() {
                                             REFLECTIVE WRITING 📃
                                         </div>
                                         <div className="card-body">
-                                            <h5 className="card-title">Title</h5>
+                                            <h5 className="card-title"> 🖥 Importance of tecnology in times of quarantine 🦠️</h5>
                                             <p className="card-text">Text...</p>
                                         </div>
                                     </div>
