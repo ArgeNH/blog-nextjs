@@ -19,23 +19,13 @@ export default function Act() {
                             <div className="row">
                                 <div className="col-sm ">
 
-                                    <div className="embed-responsive embed-responsive-16by9 rounded-sm">
-                                        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/hBi9wavp2w4"
-                                                allowFullScreen></iframe>
-
-                                    </div>
-                                </div>
-                                <div className="col-sm">
-
-                                    <div className={styles.separator}>
-                                        <div className="card">
-                                            <div className="card-header">
-                                                Name of activity (example)
-                                            </div>
-                                            <div className="card-body">
-                                                <h5 className="card-title">Title</h5>
-                                                <p className="card-text">Text...</p>
-                                            </div>
+                                    <div className="card">
+                                        <div className="card-header">
+                                            REFLECTIVE WRITING 📃
+                                        </div>
+                                        <div className="card-body">
+                                            <h5 className="card-title">Title</h5>
+                                            <p className="card-text">Text...</p>
                                         </div>
                                     </div>
 

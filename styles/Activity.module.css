@@ -14,6 +14,9 @@
     text-align: center;
     color: #030B34;
 }
+.main h5{
+    text-align: center;
+}
 
 @media (max-width: 576px) {
     .separator{
