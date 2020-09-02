@@ -6,20 +6,27 @@
     justify-content: center;
     align-items: center;
 }
-.h4{
-    text-align: center;
-    color: #030B34;
-}
 .h3{
     text-align: center;
     color: #030B34;
 }
-.main h5{
+.main h4{
     text-align: center;
+    color: #030B34;
+}
+.main img{
+    object-fit: cover;
+}
+.bor img{
+    border-radius: 100%;
 }
 .main span{
     display: inline-flex;
     text-shadow: 10px 10px 15px #999999;
+}
+
+.align{
+    text-align: justify;
 }
 
 @media (max-width: 576px) {
