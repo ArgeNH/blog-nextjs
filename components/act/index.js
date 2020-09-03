@@ -10,7 +10,7 @@ export default function Acts() {
                     {/*Actividad 1*/}
                     <div className="card">
                         <div className="card-body ">
-                            <h4 className={styles.h4}>Activity One</h4>
+                            <h4>Activity One</h4>
                             <div className="row">
                                 <div className="col-sm ">
 
@@ -36,6 +36,27 @@ export default function Acts() {
                                                             of technologies in times of quarantine.
                                                         </p>
                                                         <p className='card-text'>
+                                                            Why is technology important in times of quarantine? The
+                                                            answer to this question is the most viable solution for this
+                                                            type of case, since it does not involve physical contact
+                                                            between people. With regard to education, it is of great
+                                                            use, because it allows continuity to said academic
+                                                            activities and interacting with students in a more didactic
+                                                            and spontaneous way.
+                                                            In relation to the workplace, it is understood that for all
+                                                            jobs it is not possible to implement this type of function
+                                                            as in education, but several companies that cover the
+                                                            technological field benefit in a certain way.
+                                                        </p>
+                                                        <p>
+                                                            A large part of the world population when involved in this
+                                                            situation, cannot access these technologies or pedagogical
+                                                            tools for reasons of economy. And this generates an
+                                                            imbalance in society. There are many risks on the internet,
+                                                            more in social networks and those who are most affected are
+                                                            children, because they do not know how to handle a situation
+                                                            of these, so it is important to know some tips to avoid some
+                                                            kind of damage to this small part of the population.
                                                         </p>
                                                     </div>
                                                     <div className={'col-sm'}>
@@ -62,12 +83,12 @@ export default function Acts() {
                 <div className='container'>
                     <div className="card">
                         <div className="card-body ">
-                            <h4 className={styles.h4}>Activity Two</h4>
+                            <h4>Activity Two</h4>
                             <div className="row">
                                 <div className="col-sm ">
                                     <div className="embed-responsive embed-responsive-16by9 rounded">
                                         <iframe className="embed-responsive-item"
-                                                src="https://www.youtube.com/embed/_ZyD4n5zqxA"
+                                                src="https://www.youtube.com/embed/oozQ4yV__Vw"
                                                 allowFullScreen></iframe>
                                     </div>
                                 </div>
@@ -95,7 +116,7 @@ export default function Acts() {
                 <div className='container'>
                     <div className="card">
                         <div className="card-body ">
-                            <h3 className={styles.h3}>Graphic Organizer</h3>
+                            <h3>Graphic Organizer</h3>
                             <div className="row">
                                 <div className="col-sm ">
                                     <div className="text-center">
