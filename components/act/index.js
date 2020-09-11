@@ -88,20 +88,26 @@ export default function Acts() {
                                 <div className="col-sm ">
                                     <div className="embed-responsive embed-responsive-16by9 rounded">
                                         <iframe className="embed-responsive-item"
-                                                src="https://www.youtube.com/embed/oozQ4yV__Vw"
+                                                src="https://www.youtube.com/embed/arzsMZa1G0k"
                                                 allowFullScreen></iframe>
                                     </div>
                                 </div>
-                                <div className="col-sm">
 
+                                <div className="col-sm">
                                     <div className={styles.separator}>
                                         <div className="card">
                                             <div className="card-header">
-                                                Name of activity (example)
+                                                Mobile phone in quarantine
                                             </div>
+                                            <div className={styles.align}>
                                             <div className="card-body">
-                                                <h5 className="card-title">Title</h5>
-                                                <p className="card-text">Text...</p>
+                                                <p className="card-text">The mobile phone or smartphone has played an
+                                                    important role in quarantine. But it also has its contradictions
+                                                    that can affect a person emotionally, physically and
+                                                    psychologically. However, this technological tool greatly supports
+                                                    education and the workplace, being of necessary use for these
+                                                    activities in these times of quarantine.</p>
+                                            </div>
                                             </div>
                                         </div>
                                     </div>
