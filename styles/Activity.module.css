@@ -16,6 +16,8 @@
 }
 .bor img{
     border-radius: 100%;
+    display: block;
+    margin: 50px auto;
 }
 .main span{
     display: inline-flex;

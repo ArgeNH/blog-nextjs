@@ -100,14 +100,16 @@ export default function Acts() {
                                                 Mobile phone in quarantine
                                             </div>
                                             <div className={styles.align}>
-                                            <div className="card-body">
-                                                <p className="card-text">The mobile phone or smartphone has played an
-                                                    important role in quarantine. But it also has its contradictions
-                                                    that can affect a person emotionally, physically and
-                                                    psychologically. However, this technological tool greatly supports
-                                                    education and the workplace, being of necessary use for these
-                                                    activities in these times of quarantine.</p>
-                                            </div>
+                                                <div className="card-body">
+                                                    <p className="card-text">The mobile phone or smartphone has played
+                                                        an
+                                                        important role in quarantine. But it also has its contradictions
+                                                        that can affect a person emotionally, physically and
+                                                        psychologically. However, this technological tool greatly
+                                                        supports
+                                                        education and the workplace, being of necessary use for these
+                                                        activities in these times of quarantine.</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -118,7 +120,80 @@ export default function Acts() {
                     </div>
                 </div>
                 <br/>
-                {/*Actividad 3*/}
+
+                <div className='container'>
+                    {/*Actividad 1*/}
+                    <div className="card">
+                        <div className="card-body ">
+                            <h4>Activity Three </h4>
+                            <div className="row">
+                                <div className="col-sm ">
+
+                                    <div className={styles.align}>
+                                        <div className="card">
+                                            <div className="card-header">
+                                                WRITING 📃
+                                            </div>
+                                            <div className="card-body">
+                                                <h4 className="card-title">
+                                                    Tips for responsible use of technologies ⏳
+                                                </h4>
+                                                <div className={'row'}>
+                                                    <div className={'col-sm'}>
+                                                        <h5>Videogames 🕹</h5>
+                                                        <p className="card-text">
+                                                            The use of video games can develop very positive motor and
+                                                            cognitive skills for the development of a person, be it a
+                                                            child or an adult. But it is important to know that it can
+                                                            also generate addiction, so it is advisable to propose
+                                                            limits when it comes to video games.<br/>
+                                                            In addition, the Internet connection that the new consoles
+                                                            have, allows the possibility of playing online, which is a
+                                                            factor that amplifies social contact, in such a way that you
+                                                            can have an interaction with friends in these games.
+                                                        </p>
+                                                        <h5>Social networks</h5>
+                                                        <p className='card-text'>
+                                                            Social Networks, far from encouraging behaviors of social
+                                                            isolation, enhance and increase the social circle. They are
+                                                            great spaces to share information from the network and learn
+                                                            together. But, obviously, there is the other side of the
+                                                            coin in which you have to take into account the risks.
+                                                            Where we must take into account the information we provide
+                                                            in them and what we share, since at present you frequent
+                                                            false news on these social networks, and you have to know
+                                                            how to identify them.
+                                                        </p>
+                                                        <h5>SmartPhones 📱</h5>
+                                                        <p>
+                                                            Mobile phones have come to stay and more and more minors
+                                                            have one of these devices in their pocket. That is why it is
+                                                            necessary to let them know how to use them efficiently and
+                                                            responsibly in order to prevent the multiple risks of using
+                                                            it in the wrong way.
+                                                        </p>
+                                                    </div>
+                                                    <div className={'col-sm'}>
+                                                        <div className={styles.bor}>
+                                                            <img className='img-fluid shadow-lg'
+                                                                 src='https://imgur.com/KFhkbdi.png'
+                                                                 alt='tecnology'/>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+
+
+                {/*Actividad 4*/}
                 <div className='container'>
                     <div className="card">
                         <div className="card-body ">
