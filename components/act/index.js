@@ -192,6 +192,45 @@ export default function Acts() {
                 </div>
                 <br/>
 
+                {/*Actividad 2*/}
+                <br/>
+                <div className='container'>
+                    <div className="card">
+                        <div className="card-body ">
+                            <h4>Activity Four</h4>
+                            <div className="row">
+                                <div className="col-sm ">
+                                    <div className="embed-responsive embed-responsive-16by9 rounded">
+                                        <iframe className="embed-responsive-item"
+                                                src="https://www.youtube.com/embed/UN0w4J4hk-o"
+                                                allowFullScreen></iframe>
+                                    </div>
+                                </div>
+
+                                <div className="col-sm">
+                                    <div className={styles.separator}>
+                                        <div className="card">
+                                            <div className="card-header">
+                                                Main topic
+                                            </div>
+                                            <div className={styles.align}>
+                                                <div className="card-body">
+                                                    <p className="card-text">The video presents some of the most
+                                                        important issues related to the problem that was handled. So
+                                                        that a better understanding is achieved in the things to be
+                                                        careful as Fake news.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+
 
                 {/*Actividad 4*/}
                 <div className='container'>
