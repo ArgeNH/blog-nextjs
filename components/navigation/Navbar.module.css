@@ -1,0 +1,48 @@
+.navbar {
+    width: 100%;
+    padding: 1.2rem;
+    font-weight: bold;
+    background: var(--principal-color);
+    font-size: 1.2rem;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.rate {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 .8rem;
+}
+
+.elements {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, .9fr);
+    grid-column-gap: 1rem;
+}
+
+.home,
+.activities,
+.about {
+    padding: 0.8rem;
+    color: var(--secondary-color);
+    border-top: 3px solid var(--principal-color);
+}
+
+.home {
+    justify-self: start;
+}
+
+.activities,
+.about {
+    justify-self: end;
+}
+
+.home:hover,
+.activities:hover,
+.about:hover {
+    background: var(--bg-color-rgba);
+    border-top: 3px solid var(--bg-color);
+    border-radius: 10px;
+}

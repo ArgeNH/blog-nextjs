@@ -8,10 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "bootstrap": "^4.5.2",
     "bulma-start": "0.0.4",
     "csshake": "^1.5.3",
-    "next": "9.5.2",
+    "next": "^10.0.7",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "rmwc": "^6.1.3"

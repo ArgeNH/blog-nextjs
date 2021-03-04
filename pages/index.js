@@ -5,14 +5,15 @@ import Header from '../components/header/index'
 import VideoHome from "../components/video/index";
 import {Tab, TabBar} from '@rmwc/tabs'
 import Nav from "../components/navigation";
+import Navbar from "../components/navigation/Navbar";
 
 export default function Home() {
     return (
         <>
-
-            <div className={styles.container}>
+            <Navbar/>
+          <div className={styles.container}>
                 <Header/>
-                <Nav/>
+
                 <main className={styles.main}>
 
 
