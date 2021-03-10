@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Navbar from "../navigation/Navbar";
 
 const Layout = (props) => {
     return (
@@ -7,7 +8,7 @@ const Layout = (props) => {
                 <title>{props.title}</title>
                 <link rel="icon" href="/icon-arge.ico"/>
             </Head>
-            <!--Navbar-->
+            <Navbar/>
             <div>
                 {props.children}
                 <style jsx>{`
@@ -18,8 +19,7 @@ const Layout = (props) => {
                   }
                 `}</style>
             </div>
-            <!-- Footer
-            -->
+
         </div>
     );
 }

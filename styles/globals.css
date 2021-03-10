@@ -3,6 +3,7 @@
   --secondary-color: #76C893;
   --bg-color-rgba: rgba(26, 117,159, 0.4);
   --bg-color: #1A759F;
+  --bg-body:rgba(217, 237, 146,0.1);
 }
 
 html,
@@ -11,6 +12,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: var(--bg-body);
 }
 
 a {
